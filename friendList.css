@@ -1,0 +1,85 @@
+* {
+    font-family: 'Alegreya', serif, 'Font Awesome 6 Free';
+}
+
+
+/* navbar */
+
+#navbarSupportedContent {
+    justify-content: space-between;
+}
+
+
+#card-container {
+    border: none;
+}
+
+
+/* text */
+
+#text-container {
+    /* 排版(定位) */
+    position: absolute;
+    /* 排版(畫面流) */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* 區塊 */
+    background-color: rgba(0, 0, 0, .2);
+    height: 200px;
+    opacity: 0;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+#text-container:hover {
+    position: absolute;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .5);
+    border: 3px double yellow;
+}
+
+#modal-header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 5px 0 0 450px;
+}
+
+.title {
+    margin-top: 5px;
+    text-align: center;
+}
+
+h2 {
+    /*margin-left: 35px;hover時要把這個拿掉*/
+    color: black;
+}
+
+p {
+    color: white;
+}
+
+#card-img {
+    border-radius: 10px;
+    opacity: 1;
+    transition: .3s;
+}
+
+#card-img:hover {
+    opacity: 0.5;
+    border: 5px solid gray;
+}
+
+.modal-img {
+    border-radius: 30%;
+    width: 150px;
+}
+
+#modal-row1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
